@@ -164,7 +164,7 @@ Android项目中不建议使用硬编码来使用资源，建议将各类资源�
 ```
 通过键值对来定义，使用的时候用@color/colorAccent 即可引用到对应资源，注意是*@color*不是@colors，这里和文件名是不相同的。其它资源的引用也一样。
 #### 关于自定义style
-style定义在res/values/styles.xml文件中，也是一种资源。例如当多个TextView具有相同的layout_height，layout_width，textSize，textColor设定时，如果每次都要把这些属性设定一次会很烦，而且如果全部需要修改的话（改变字体大小）也不方便，因此可以把这些属性统一定义为一个style，这样使用的时候只要直接引用这个styl 即可。
+style定义在res/values/styles.xml文件中，也是一种资源。例如当多个TextView具有相同的layout_height，layout_width，textSize，textColor设定时，如果每次都要把这些属性设定一次会很烦，而且如果全部需要修改的话（改变字体大小）也不方便，因此可以把这些属性统一定义为一个style，这样使用的时候只要直接引用这个style即可。
 
 *示例styles.xml*
 ```javascript
@@ -175,7 +175,7 @@ style定义在res/values/styles.xml文件中，也是一种资源。例如当多
         <item name="android:textSize">@dimen/normal_size</item>
     </style>
 ```
-一个自定义 style 下包含多个键值对，引用的时候设置 style=“@style/my_edittext_style”即可。在引用 style 之后，还可以继续定义属性，如果有重复，以重复定义的属性为准。
+一个自定义 style 下包含多个键值对，引用的时候设置 style=“@style/myEditTextStyle”即可。在引用 style 之后，还可以继续定义属性，如果有重复，以重复定义的属性为准。
 
 ---
 
@@ -229,7 +229,7 @@ button.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         if(TextUtils.isEmpty(searchContent.getText().toString())) {
-            Toast.makeText(MainActivity.this, "Empty", Toast.LENGTH_SHORT).show();
+            // 弹出Toast消息
         }
     }
 });
