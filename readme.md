@@ -17,7 +17,7 @@
 
 ###实验内容
 实现一个Android应用，界面呈现如图中的效果。  
-![avatar][image]  
+![preview](https://gitee.com/code_sysu/PersonalProject1/tree/master/manual/images/preview.jpg)  
 ####要求  
 * 该界面为应用启动后看到的第一个界面。  
 * 各控件的要求
@@ -58,12 +58,12 @@ TextView、EditText、ConstraintLayout、Button、ImageView、RadioGroup、Radio
 * 各控件处理的要求
    1. 点击搜索按钮：
       * 如果搜索内容为空，弹出Toast信息“**搜索内容不能为空**”。
-      * 如果搜索内容为“Health”，根据选中的RadioButton项弹出如下对话框。
-![avatar][success]  
+      * 如果搜索内容为“Health”，根据选中的RadioButton项弹出如下对话框。  
+![preview](https://gitee.com/code_sysu/PersonalProject1/tree/master/manual/images/success.jpg)  
 点击“确定”，弹出Toast信息——**对话框“确定”按钮被点击**。  
 点击“取消”，弹出Toast 信息——**对话框“取消”按钮被点击**。  
-否则弹出如下对话框，对话框点击效果同上。
-![avatar][fail]  
+否则弹出如下对话框，对话框点击效果同上。  
+![preview](https://gitee.com/code_sysu/PersonalProject1/tree/master/manual/images/fail.jpg)  
    2. RadioButton选择项切换：选择项切换之后，弹出Toast信息“**XX被选中**”，例如从图片切换到视频，弹出Toast信息“**视频被选中**”  
 
 ---
