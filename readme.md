@@ -17,7 +17,8 @@
 
 ###实验内容
 实现一个Android应用，界面呈现如图中的效果。  
- ![index](https://github.com/linwh8/ModernWebPrograming/raw/master/My_image/recipe_index.png) 
+ ![index](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/preview.jpg) 
+
 ####要求  
 * 该界面为应用启动后看到的第一个界面。  
 * 各控件的要求
