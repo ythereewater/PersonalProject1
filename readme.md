@@ -40,6 +40,11 @@ TextView、EditText、ConstraintLayout、Button、ImageView、RadioGroup、Radio
 
 ---
 
+### 完成期限
+第四周各班实验课前一天晚上23：59。
+
+---
+
 ---
 ## 第四周任务
 ## 基础的事件处理
@@ -76,3 +81,8 @@ TextView、EditText、ConstraintLayout、Button、ImageView、RadioGroup、Radio
 * 输入搜索内容后，点击搜索按钮是否能根据不同的搜索内容显示相应的弹出框，以及弹出框内容是否符合要求
 * 点击弹出框的相应按钮是否能提示正确的内容
 * RadioButton切换时，提示是否正常
+
+---
+
+### 完成期限
+第五周各班实验课前一天晚上23：59。
