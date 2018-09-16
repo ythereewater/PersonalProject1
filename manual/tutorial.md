@@ -46,7 +46,7 @@ Android的组件分为布局和控件。
 ```
 效果图  ![fill](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/fill.jpg) 
 
-####TextView
+#### TextView
 用于显示文字内容的控件，通过设置 text 的值来显示要显示的内容，常用的属性有 textColor，用于设置文字的颜色，textSize，用于设置文字大小。  
 ```javascript
     <TextView
@@ -60,7 +60,7 @@ Android的组件分为布局和控件。
  ![test](https://gitee.com/code_sysu/PersonalProject1/raw/master/manual/images/test.jpg) 
 
 关于@color/colorAccent 这种形式的资源引用后面会讲。
-####EditText
+#### EditText
 用于接受用户输入的输入框，常用属性除了和 TextView 相同的 textColor 和 textSize 之外，还有inputType，用于设置输入框中文本的类型，如果设置为textPassword，会使输入的文字变为小点(·)，hint，用于设置当输入框为空时的提示内容。  
 ```javascript
     <EditText
